@@ -16,7 +16,7 @@
         "burti/ass-xmlsecurity": "dev-master"
     },
     "autoload": {
-        "psr-0": { "BeSimple\\SoapClient": "" }
+        "psr-0": { "BeSimple\\SoapClient": "BeSimple/SoapClient/src/" }
     },
     "target-dir": "BeSimple/SoapClient"
 }
