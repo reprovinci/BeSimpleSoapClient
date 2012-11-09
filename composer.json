@@ -1,5 +1,5 @@
 {
-    "name": "burti/besimple-soap-client",
+    "name": "reprovinci/besimple-soap-client",
     "type": "symfony-bundle",
     "description": "Build and consume SOAP Client based web services with Symfony2",
     "keywords": [ "soap", "soap-client" ],
