@@ -126,7 +126,7 @@ class SoapClient extends \SoapClient
         // HTTP headers
         $soapAction = $soapRequest->getAction();
         $headers = array(
-            'Content-Type:' . $soapRequest->getContentType() . '; action=' . $soapAction,
+            'Content-Type:' . $soapRequest->getContentType() . '; action="' . $soapAction . '"',
             'SOAPAction: "' . $soapAction . '"',
         );
         // execute HTTP request with cURL
