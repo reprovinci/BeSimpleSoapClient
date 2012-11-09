@@ -6,6 +6,19 @@
     "homepage": "https://github.com/Burti/BeSimpleSoapClient",
     "authors": [
         {
+            "name": "Francis Besset",
+            "homepage": "http://www.apercite.fr",
+            "email": "francis.besset@gmail.com"
+        },
+        {
+            "name": "aschamberger",
+            "homepage": "https://github.com/aschamberger"
+        },
+        {
+            "name": "Scheb",
+            "homepage": "https://github.com/Scheb"
+        },
+        {
             "name": "Caio Paiola",
             "email": "caio____@live.com"
         }
