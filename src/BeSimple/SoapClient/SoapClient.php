@@ -124,9 +124,10 @@ class SoapClient extends \SoapClient
     private function __doHttpRequest(SoapRequest $soapRequest)
     {
         // HTTP headers
+        $soapAction = $soapRequest->getAction();
         $headers = array(
-            'Content-Type:' . $soapRequest->getContentType(),
-            'SOAPAction: "' . $soapRequest->getAction() . '"',
+            'Content-Type:' . $soapRequest->getContentType() . '; action=' . $soapAction,
+            'SOAPAction: "' . $soapAction . '"',
         );
         // execute HTTP request with cURL
         $responseSuccessfull = $this->curl->exec(
